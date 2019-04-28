@@ -26,6 +26,8 @@
         <httpclient.version>4.3.5</httpclient.version>
         <docker.image.prefix>springboot</docker.image.prefix>
         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+             
+        <skipTests>true</skipTests>
     </properties>
 
     <dependencies>
