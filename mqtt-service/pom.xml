@@ -23,6 +23,8 @@
         <commons-lang3.versin>3.3.2</commons-lang3.versin>
         <httpclient.version>4.3.5</httpclient.version>
         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+             
+        <skipTests>true</skipTests>
     </properties>
 
     <dependencies>
