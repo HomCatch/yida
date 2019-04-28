@@ -1,0 +1,29 @@
+
+server:
+  port: 8769
+spring:
+  application:
+    name: zuul-service
+eureka:
+  instance.prefer-ip-address: true
+  client.serviceUrl.defaultZone: http://127.0.0.1:8761/eureka/
+#路由规则
+zuul:
+  routes:
+    mng-service:
+      serviceId: mng-service
+      path: /mng/**
+    devcontrol:
+      serviceId: mqtt-service
+      path: /devcontrol/**
+ribbon:
+  # 连接超时时间(ms)
+  ConnectTimeout: 1050
+  # 通信超时时间(ms) 504问题
+  ReadTimeout: 5000
+  # 是否对所有操作重试
+  OkToRetryOnAllOperations: true
+  # 同一服务不同实例的重试次数
+  MaxAutoRetriesNextServer: 2
+  # 同一实例的重试次数
+  MaxAutoRetries: 1
