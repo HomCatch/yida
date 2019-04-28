@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  * <p>
- *
+ * 
  * </p>
  *
  * @author wzq
@@ -17,12 +17,12 @@ import java.util.Date;
  */
 
 @Entity
-@Table(name = "adv_static")
+@Table(name="adv_static")
 public class AdvStatic implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @Id
+  	@Id
     @JsonProperty(value = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -45,36 +45,36 @@ public class AdvStatic implements Serializable {
     }
 
     public Integer getId() {
-        return id;
-    }
+      return id;
+   }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+   public void setId(Integer id) {
+      this.id = id;
+   }
 
-    public Integer getAdvId() {
-        return advId;
-    }
+   public Integer getAdvId() {
+      return advId;
+   }
 
-    public void setAdvId(Integer advId) {
-        this.advId = advId;
-    }
+   public void setAdvId(Integer advId) {
+      this.advId = advId;
+   }
 
-    public String getDevId() {
-        return devId;
-    }
+   public String getDevId() {
+      return devId;
+   }
 
-    public void setDevId(String devId) {
-        this.devId = devId;
-    }
+   public void setDevId(String devId) {
+      this.devId = devId;
+   }
 
-    public Date getReportTime() {
-        return reportTime;
-    }
+   public Date getReportTime() {
+      return reportTime;
+   }
 
-    public void setReportTime(Date reportTime) {
-        this.reportTime = reportTime;
-    }
+   public void setReportTime(Date reportTime) {
+      this.reportTime = reportTime;
+   }
 
 
 }

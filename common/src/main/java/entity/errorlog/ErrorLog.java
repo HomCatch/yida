@@ -56,7 +56,7 @@ public class ErrorLog implements Serializable {
      * 创建时间
      */
     @Temporal(value = TemporalType.TIMESTAMP)
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss" , timezone = "GMT+8")
     private Date createTime;
     @Transient
     private String startTime;

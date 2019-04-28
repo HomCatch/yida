@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.etar.purifier.modules.sys.dao.SysRoleDao">
+
+    <select id="selectByUserId" resultType="com.etar.purifier.modules.sys.entity.SysRoleEntity">
+        select r.* from sys_role r left join sys_user_role  sr on r.role_id=sr.role_id where  sr.user_id= #{userId}
+    </select>
+    <select id="selectByRoleName" resultType="com.etar.purifier.modules.sys.entity.SysRoleEntity">
+        select * from sys_role  where  role_name= #{roleName}
+    </select>
+</mapper>

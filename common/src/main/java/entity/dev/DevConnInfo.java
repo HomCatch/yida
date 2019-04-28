@@ -1,8 +1,7 @@
 package entity.dev;
 
 /**
- * 设备连接信息
- *
+ *  设备连接信息
  * @author Gmq
  * @date 2019-01-24 18:19
  **/

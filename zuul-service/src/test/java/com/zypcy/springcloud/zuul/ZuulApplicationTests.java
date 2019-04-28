@@ -9,9 +9,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class ZuulApplicationTests {
 
-    @Test
-    public void contextLoads() {
-    }
+	@Test
+	public void contextLoads() {
+	}
 
 }
 

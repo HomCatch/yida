@@ -63,7 +63,7 @@ public class OperateLog implements Serializable {
     /**
      * 状态（0失败1成功）
      */
-    @Excel(name = "状态", replace = {"失败_0", "成功_1"})
+    @Excel(name = "状态",replace = { "失败_0", "成功_1" })
     private Integer status;
     /**
      * 操作IP

@@ -1,0 +1,16 @@
+spring:
+    profiles:
+        active: dev
+    application:
+        name: mqtt-service
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+
+
+

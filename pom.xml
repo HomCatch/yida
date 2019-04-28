@@ -19,15 +19,15 @@
     <modules>
         <module>eureka-server</module>
         <module>zuul-service</module>
-        <module>mqtt-service</module>
+        <!--<module>mqtt-service</module>-->
         <module>common</module>
-        <module>mng-service</module>
-        <module>miniprogram-service</module>
+        <!--<module>mng-service</module>-->
+        <!--<module>miniprogram-service</module>-->
     </modules>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
-        <shipTest>true</shipTest>
+        <skipTests>true</skipTests>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <commons-lang3.versin>3.3.2</commons-lang3.versin>

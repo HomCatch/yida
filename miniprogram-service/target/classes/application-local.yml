@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://123.57.148.29:3306/yida-dev?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&rewriteBatchedStatements=TRUE&useSSL=true
+    username: root
+    password: iswater
+  jpa:
+    show-sql: true
+logging:
+ config: classpath:logback-local.xml
+
+#EMQ Basic 认证
+appid: 01d6f2d460b8a
+appsecret: Mjg1NjE1MzYzNzI4MjUyMDI2ODg4MzAwOTE0MTI4MzIyNTG
+#服务器地址
+emq_server: http://iotsvr.he-live.com:18080
+#接口地址
+connect_url: /api/v3/connections/
+
+
+
+
+
+
+
+
