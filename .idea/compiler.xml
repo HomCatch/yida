@@ -14,14 +14,5 @@
         <module name="zuul-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="common" target="8" />
-      <module name="eureka-server" target="1.8" />
-      <module name="miniprogram-service" target="1.8" />
-      <module name="mng-service" target="1.8" />
-      <module name="mqtt-service" target="1.8" />
-      <module name="yida" target="1.8" />
-      <module name="zuul-service" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

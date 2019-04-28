@@ -2,11 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/common" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/eureka-server" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/miniprogram-service" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mng-service" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mqtt-service" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/zuul-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/common" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/eureka-server" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/miniprogram-service" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/mng-service" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/mqtt-service" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/zuul-service" vcs="svn" />
   </component>
 </project>
