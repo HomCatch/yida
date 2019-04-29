@@ -1,12 +1,12 @@
 
 server:
-  port: 18769
+  port: 8769
 spring:
   application:
     name: zuul-service
 eureka:
   instance.prefer-ip-address: true
-  client.serviceUrl.defaultZone: http://127.0.0.1:18761/eureka/
+  client.serviceUrl.defaultZone: http://localhost:8761/eureka/
 #路由规则
 zuul:
   routes:
