@@ -19,10 +19,10 @@
     <modules>
         <module>eureka-server</module>
         <module>zuul-service</module>
-        <!--<module>mqtt-service</module>-->
+        <module>mqtt-service</module>
         <module>common</module>
-        <!--<module>mng-service</module>-->
-        <!--<module>miniprogram-service</module>-->
+        <module>mng-service</module>
+        <module>miniprogram-service</module>
     </modules>
     <properties>
      
