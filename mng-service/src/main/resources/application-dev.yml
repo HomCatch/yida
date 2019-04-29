@@ -38,7 +38,7 @@ emq_server: http://39.105.103.1:8080
 connect_url: /api/v3/connections/
 
 server:
-  port: 8786
+  port: 18786
 
 
 
