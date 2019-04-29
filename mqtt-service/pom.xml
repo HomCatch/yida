@@ -168,17 +168,17 @@
             <properties>
                 <profileActive>dev</profileActive>
             </properties>
+             <!--默认打包环境-->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
         </profile>
         <profile>
             <id>local</id>
             <properties>
                 <profileActive>local</profileActive>
             </properties>
-            <!--默认打包环境-->
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
+                </profile>
         <profile>
             <id>prod</id>
             <properties>
