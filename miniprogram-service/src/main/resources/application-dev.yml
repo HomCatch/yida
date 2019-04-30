@@ -1,8 +1,7 @@
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://123.57.148.29:3306/yida-dev?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&useSSL=true&rewriteBatchedStatements=TRUE
-#    url: jdbc:mysql://39.108.158.31:3306/yida?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&useSSL=true&rewriteBatchedStatements=TRUE
+    url: jdbc:mysql://123.57.148.29:3306/yida-dev?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&rewriteBatchedStatements=TRUE&useSSL=true
     username: root
     password: iswater
   jpa:
