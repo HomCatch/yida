@@ -23,6 +23,8 @@
         <commons-lang3.versin>3.3.2</commons-lang3.versin>
         <httpclient.version>4.3.5</httpclient.version>
         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+             
+        <skipTests>true</skipTests>
     </properties>
 
     <dependencies>
@@ -166,17 +168,17 @@
             <properties>
                 <profileActive>dev</profileActive>
             </properties>
+             <!--默认打包环境-->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
         </profile>
         <profile>
             <id>local</id>
             <properties>
                 <profileActive>local</profileActive>
             </properties>
-            <!--默认打包环境-->
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
+                </profile>
         <profile>
             <id>prod</id>
             <properties>

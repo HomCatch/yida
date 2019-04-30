@@ -5,8 +5,8 @@
 <!-- debug 当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。默认值为false -->
 <configuration scan="false">
 
-	<property name="LOG_PATH" value="/opt/yida/api/logs" />
-	<property name="LOG_FILE_NAME" value="etar" />
+	<property name="LOG_PATH" value="/opt/yd/api/logs" />
+	<property name="LOG_FILE_NAME" value="etar-mqtt" />
 
 	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
