@@ -29,7 +29,7 @@ server:
      key-store: classpath:215072324040204.pfx
      key-store-password: 215072324040204
      key-store-type: PKCS12
-   port: 443
+   port: 445
 
 eureka:
   client:
